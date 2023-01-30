@@ -1,9 +1,11 @@
-import Style from '@/components/header/Header.module.scss';
+import BlackBox from '../common/BlackBox';
 
-const Header = () => {
+import Style from './Header.module.scss';
+
+const Header = (): JSX.Element => {
   return (
     <div className={Style.Header}>
-      <div className={Style.Header__box} />
+      <BlackBox />
       <div className={Style.Header__flexWrapper}>
         <div className={Style.Header__flexWrapper__nickname}>Jobchae</div>
         <div className={Style.Header__flexWrapper__stacks}>

@@ -6,12 +6,13 @@ import { PROFILE_LIST } from '@/constants/objects/profileList';
 import profileImage from 'public/static/images/profile.png';
 import arrowImage from 'public/static/images/arrow.png';
 
-import Style from '@/components/profile/Profile.module.scss';
+import Style from './Profile.module.scss';
+import React from 'react';
 
 const getItemList = (): JSX.Element[] => {
   return Object.keys(PROFILE_LIST).map((key: string) => {
     return (
-      <>
+      <React.Fragment key={key}>
         <div className={Style.Profile__profileBox__itemWrapper}>
           <div>{key}</div>
           <div>{PROFILE_LIST[key]}</div>
@@ -22,7 +23,7 @@ const getItemList = (): JSX.Element[] => {
           )}
         </div>
         <div className={Style.Profile__profileBox__rowLine} />
-      </>
+      </React.Fragment>
     );
   });
 };

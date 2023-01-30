@@ -1,4 +1,4 @@
-import Style from '@/components/layout/AppLayout.module.scss';
+import Style from './AppLayout.module.scss';
 
 const AppLayout = (props: { children: React.ReactNode }) => {
   return (
