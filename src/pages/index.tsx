@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '@/styles/home/Home.module.scss';
 
 import Header from '@/components/header/Header';
 import Profile from '@/components/profile/Profile';
+import Banner from '@/components/banner/Banner';
 
 export default function Home() {
   return (
@@ -31,6 +31,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <Profile />
+        <Banner />
       </main>
     </>
   );
