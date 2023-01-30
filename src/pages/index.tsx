@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '@/styles/home/Home.module.scss';
 
 import Header from '@/components/header/Header';
+import Profile from '@/components/profile/Profile';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header />
+        <Profile />
       </main>
     </>
   );
