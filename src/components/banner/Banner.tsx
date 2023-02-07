@@ -1,8 +1,11 @@
-import BlackBox from '../common/BlackBox';
+import React from 'react';
+
+import { BlackBox } from '../common/BlackBox';
+import { Line } from '../common/Line';
+
 import { BANNER_ITEM_LIST } from '@/constants/objects/BannerItemList';
 
 import Style from './Banner.module.scss';
-import React from 'react';
 
 const getItemList = (): JSX.Element[] => {
   return Object.keys(BANNER_ITEM_LIST).map((key: string) => {
@@ -12,7 +15,7 @@ const getItemList = (): JSX.Element[] => {
           <div className={Style.Banner__itemContainer__item__number}>{key}</div>
           <div>{BANNER_ITEM_LIST[key]}</div>
         </div>
-        <div className={Style.Banner__itemContainer__item__line} />
+        <Line direction="col" />
       </React.Fragment>
     );
   });
@@ -23,7 +26,7 @@ const Banner = (): JSX.Element => {
     <div className={Style.Banner}>
       <BlackBox />
       <div className={Style.Banner__itemContainer}>{getItemList()}</div>
-      <div className={Style.Banner__rowLine} />
+      <Line direction="row" />
     </div>
   );
 };

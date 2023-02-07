@@ -1,4 +1,5 @@
-import BlackBox from '../common/BlackBox';
+import { BlackBox } from '../common/BlackBox';
+import { Line } from '../common/Line';
 
 import Style from './Header.module.scss';
 
@@ -17,7 +18,7 @@ const Header = (): JSX.Element => {
           deep dive into Node.js and Typescripts.
         </div>
       </div>
-      <div className={Style.Header__rowLine} />
+      <Line direction="row" />
       <div className={Style.Header__title}>
         <div className={Style.Header__title__text}>Growing</div>
         <div className={Style.Header__title__text}>Junior Backend</div>
