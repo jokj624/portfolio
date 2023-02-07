@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import styles from '@/styles/home/Home.module.scss';
 
-import Header from '@/components/header/Header';
-import Profile from '@/components/profile/Profile';
-import Banner from '@/components/banner/Banner';
+import { Header } from '@/components/header';
+import { Profile } from '@/components/profile';
+import { Banner } from '@/components/banner';
+import { About } from '@/components/about';
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         <Header />
         <Profile />
         <Banner />
+        <About />
       </main>
     </>
   );

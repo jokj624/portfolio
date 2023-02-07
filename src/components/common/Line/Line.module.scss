@@ -1,0 +1,11 @@
+.Line {
+  width: 100%;
+
+  &--row {
+    border-top: 1px solid var(--black-color);
+  }
+
+  &--col {
+    border-right: 1px solid var(--black-color);
+  }
+}

@@ -24,15 +24,6 @@
         font-weight: 600;
         margin-bottom: 0.5rem;
       }
-
-      &__line {
-        border-right: 1px solid var(--black-color);
-      }
     }
-  }
-
-  &__rowLine {
-    width: 100%;
-    border-top: 1px solid var(--black-color);
   }
 }

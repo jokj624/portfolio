@@ -1,5 +1,8 @@
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+
+import { Line } from '../common/Line';
 
 import { PROFILE_LIST } from '@/constants/objects/profileList';
 
@@ -7,7 +10,6 @@ import profileImage from 'public/static/images/profile.png';
 import arrowImage from 'public/static/images/arrow.png';
 
 import Style from './Profile.module.scss';
-import React from 'react';
 
 const getItemList = (): JSX.Element[] => {
   return Object.keys(PROFILE_LIST).map((key: string) => {
@@ -22,7 +24,7 @@ const getItemList = (): JSX.Element[] => {
             </Link>
           )}
         </div>
-        <div className={Style.Profile__profileBox__rowLine} />
+        <Line direction="row" />
       </React.Fragment>
     );
   });
@@ -42,7 +44,7 @@ const Profile = (): JSX.Element => {
       <div className={Style.Profile__profileBox}>
         <div className={Style.Profile__profileBox__name}>Chae Jeong Ah</div>
         <p>Profile</p>
-        <div className={Style.Profile__profileBox__rowLine} />
+        <Line direction="row" />
         {getItemList()}
       </div>
     </div>
