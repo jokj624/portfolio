@@ -1,0 +1,35 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 120%;
+  height: 20rem;
+  background-color: var(--black-color);
+  font-family: 'Pretendard Variable';
+  color: var(--white-color);
+
+  &__year {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  &__copyright {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  &__iconWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 3.5rem;
+
+    &__icon {
+      width: 1.25rem;
+      height: 1.25rem;
+      color: var(--background-color);
+    }
+  }
+}
