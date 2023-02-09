@@ -1,4 +1,4 @@
-import AppLayout from '@/components/layout/AppLayout';
+import { AppLayout } from '@/components/AppLayout';
 import '@/styles/globals.scss';
 import '../../public/static/fonts/style.css';
 

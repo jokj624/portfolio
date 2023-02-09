@@ -1,4 +1,4 @@
-import { Line } from '../common/Line';
+import { Line } from '../Common/Line';
 
 import Style from './About.module.scss';
 
