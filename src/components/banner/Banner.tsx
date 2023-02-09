@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BlackBox } from '../Common/BlackBox';
-import { Line } from '../common/Line';
+import { Line } from '../Common/Line';
 
 import { BANNER_ITEM_LIST } from '@/constants/objects/bannerItemList';
 
