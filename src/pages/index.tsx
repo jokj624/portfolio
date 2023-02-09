@@ -5,6 +5,7 @@ import { Header } from '@/components/header';
 import { Profile } from '@/components/profile';
 import { Banner } from '@/components/banner';
 import { About } from '@/components/about';
+import { Footer } from '@/components/common/Footer';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <Profile />
         <Banner />
         <About />
+        <Footer />
       </main>
     </>
   );
