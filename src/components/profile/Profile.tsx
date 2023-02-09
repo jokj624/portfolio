@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Line } from '../common/Line';
+import { Line } from '../Common/Line';
 
 import { PROFILE_LIST } from '@/constants/objects/profileList';
 

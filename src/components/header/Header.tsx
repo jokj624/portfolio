@@ -1,5 +1,5 @@
-import { BlackBox } from '../common/BlackBox';
-import { Line } from '../common/Line';
+import { BlackBox } from '../Common/BlackBox';
+import { Line } from '../Common/Line';
 
 import Style from './Header.module.scss';
 
