@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import styles from '@/styles/home/Home.module.scss';
 
-import { Header } from '@/components/header';
-import { Profile } from '@/components/profile';
-import { Banner } from '@/components/banner';
-import { About } from '@/components/about';
-import { Footer } from '@/components/common/Footer';
+import { Header } from '@/components/Header';
+import { Profile } from '@/components/Profile';
+import { Banner } from '@/components/Banner';
+import { About } from '@/components/About';
+import { Footer } from '@/components/Common/Footer';
 
 export default function Home() {
   return (

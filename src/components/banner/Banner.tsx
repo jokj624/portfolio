@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { BlackBox } from '../common/BlackBox';
+import { BlackBox } from '../Common/BlackBox';
 import { Line } from '../common/Line';
 
-import { BANNER_ITEM_LIST } from '@/constants/objects/BannerItemList';
+import { BANNER_ITEM_LIST } from '@/constants/objects/bannerItemList';
 
 import Style from './Banner.module.scss';
 
