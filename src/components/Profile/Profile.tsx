@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { Line } from '../Common/Line';
 
-import { PROFILE_LIST } from '@/constants/objects/profileList';
+import { PROFILE_LIST } from '@/constants/objects';
 
 import profileImage from 'public/static/images/profile.png';
 import arrowImage from 'public/static/images/arrow.png';
