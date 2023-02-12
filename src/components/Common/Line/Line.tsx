@@ -1,11 +1,13 @@
 import Style from './Line.module.scss';
 
 interface Props {
-  direction: string;
+  direction: 'row' | 'col';
 }
 
 const Line = (props: Props) => {
-  return <div className={Style[`Line--${props.direction}`]} />;
+  const { direction } = props;
+
+  return <div className={Style[`Line--${direction}`]} />;
 };
 
 export default Line;
