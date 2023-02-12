@@ -7,6 +7,7 @@ import { Banner } from '@/components/Banner';
 import { About } from '@/components/About';
 import { Footer } from '@/components/Common/Footer';
 import { TechStack } from '@/components/TechStack';
+import { Education } from '@/components/Education';
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         <Banner />
         <About />
         <TechStack />
+        <Education />
         <Footer />
       </main>
     </>

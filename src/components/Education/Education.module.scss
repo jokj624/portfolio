@@ -1,0 +1,49 @@
+.Education {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  width: 100%;
+
+  &__title {
+    flex-grow: 0.5;
+    font-family: 'Heading-Now';
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  &__contentWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    padding: 1rem 1rem 0 1rem;
+    margin: 1rem 0 0 0;
+    font-family: 'Pretendard Variable';
+    font-size: 1rem;
+
+    &__item {
+      display: flex;
+      margin: 1.5rem 1.2rem 0 1.2rem;
+
+      &__date {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 15rem;
+
+        &__school {
+          font-size: 1.1rem;
+          font-weight: 600;
+        }
+
+        &__info {
+          margin: 1rem 0;
+          line-height: 160%;
+        }
+      }
+    }
+  }
+}
