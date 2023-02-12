@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { FOOTER_ICON_LIST } from '@/constants/objects/footerIconList';
+import { FOOTER_ICON_LIST } from '@/constants/objects';
 
 import Style from './Footer.module.scss';
 

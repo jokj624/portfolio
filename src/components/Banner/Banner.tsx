@@ -3,7 +3,7 @@ import React from 'react';
 import { BlackBox } from '../Common/BlackBox';
 import { Line } from '../Common/Line';
 
-import { BANNER_ITEM_LIST } from '@/constants/objects/bannerItemList';
+import { BANNER_ITEM_LIST } from '@/constants/objects';
 
 import Style from './Banner.module.scss';
 

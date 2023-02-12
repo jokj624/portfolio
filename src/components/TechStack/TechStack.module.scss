@@ -1,0 +1,13 @@
+.TechStack {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin: 3rem 0;
+
+  &__text {
+    font-family: 'Heading-Now';
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 105%;
+  }
+}

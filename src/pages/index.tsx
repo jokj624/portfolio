@@ -6,6 +6,7 @@ import { Profile } from '@/components/Profile';
 import { Banner } from '@/components/Banner';
 import { About } from '@/components/About';
 import { Footer } from '@/components/Common/Footer';
+import { TechStack } from '@/components/TechStack';
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         <Profile />
         <Banner />
         <About />
+        <TechStack />
         <Footer />
       </main>
     </>
