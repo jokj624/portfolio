@@ -1,0 +1,24 @@
+.TechStackCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 15rem;
+  height: 20rem;
+  background-color: var(--black-color);
+  color: var(--white-gray-color);
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--background-color);
+  }
+
+  &__title {
+    margin: 0 0 1.5rem 0;
+    font-family: 'Heading-Now';
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}
